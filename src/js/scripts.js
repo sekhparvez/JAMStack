@@ -36,5 +36,6 @@ function showData(stories) {
 
   document.querySelector('.stories').innerHTML = looped;
 }
-
+if(document.querySelector('.home')){
 getStories();
+}
